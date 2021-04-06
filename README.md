@@ -40,7 +40,7 @@ Edit `config.js` to put up your details
 
 ```javascript
 module.exports = {
-  siteTitle: 'Gatsby Starter phantom', // <title>
+  siteTitle: 'The Coders Guild - Liverpool Boootcamp Microsite', // <title>
   ...
   heading: 'Anubhav',
   subHeading: 'Web Developer',
@@ -73,7 +73,7 @@ Additionally, it also has [path-prefix](https://www.gatsbyjs.org/docs/path-prefi
 - [gatsby-starter-stylish](https://github.com/anubhavsrivastava/gatsby-starter-stylish)
 - [gatsby-starter-solidstate](https://github.com/anubhavsrivastava/gatsby-starter-solidstate)
 - [gatsby-starter-readonly](https://github.com/anubhavsrivastava/gatsby-starter-readonly)
-- [gatsby-starter-prologue](https://github.com/anubhavsrivastava/gatsby-starter-prologue) 
+- [gatsby-starter-prologue](https://github.com/anubhavsrivastava/gatsby-starter-prologue)
 - [gatsby-starter-paradigmshift](https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift)
 - [gatsby-starter-overflow](https://github.com/anubhavsrivastava/gatsby-starter-overflow)
 - [gatsby-starter-multiverse](https://github.com/anubhavsrivastava/gatsby-starter-multiverse)

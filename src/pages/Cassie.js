@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import pic1 from '../assets/images/01.jpg';
+import cassietech from '../assets/images/cassie-tech.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -9,7 +9,7 @@ const IndexPage = () => (
       <div className="inner">
         <h1>Generic Page</h1>
         <span className="image main">
-          <img src={pic1} alt="" />
+          <img src={cassietech} alt="" />
         </span>
         <p>
           Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis

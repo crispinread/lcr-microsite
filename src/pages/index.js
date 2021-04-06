@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/01.jpg';
+import cassietech from '../assets/images/cassie-tech.jpg';
 import pic2 from '../assets/images/02.jpg';
 import pic3 from '../assets/images/03.jpg';
 import pic4 from '../assets/images/04.jpg';
@@ -17,7 +17,7 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h1>
-            This is Phantom, a free, fully responsive gatsby starter
+          Liverpool City Region Receives Valuable Tech Skills in 2021
             <br />
           </h1>
           <p>
@@ -30,10 +30,10 @@ const IndexPage = () => (
         <section className="tiles">
           <article className="style1">
             <span className="image">
-              <img src={pic1} alt="" />
+              <img src={cassietech} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Magna</h2>
+            <Link to="/Cassie">
+              <h2>Cassie</h2>
               <div className="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
@@ -114,7 +114,7 @@ const IndexPage = () => (
           </article>
           <article className="style2">
             <span className="image">
-              <img src={pic1} alt="" />
+              <img src={cassietech} alt="" />
             </span>
             <Link to="/Generic">
               <h2>Ipsum</h2>
