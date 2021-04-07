@@ -147,3 +147,11 @@
     }
   }
 }
+
+@media screen and (max-width: 650px) {
+  #header {
+    .title {
+      font-size: 2rem;
+    }
+  }
+}

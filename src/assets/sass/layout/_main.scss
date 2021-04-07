@@ -52,12 +52,14 @@
 }
 
 @media screen and (max-width: 650px) {
-  .image-container {
-    width: 100% !important;
-  }
-  .socials-container {
-    width: 100% !important;
-    margin-bottom: 50px;
-    padding: 0 !important;
+  .flex-container {
+    .image-container {
+      width: 100%;
+    }
+    .socials-container {
+      width: 100%;
+      margin-bottom: 50px;
+      padding: 0;
+    }
   }
 }
