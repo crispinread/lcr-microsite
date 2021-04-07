@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
+import lcrcalogo from '../assets/images/lcrca-logo.jpeg';
 import cassietech from '../assets/images/cassie-tech.jpg';
 import pic2 from '../assets/images/02.jpg';
 import pic3 from '../assets/images/03.jpg';
@@ -21,11 +22,29 @@ const IndexPage = () => (
             <br />
           </h1>
           <p>
-            Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit
-            amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis
-            venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem
-            ipsum dolor sit amet nullam dolore.
+          Working in partnership with the Liverpool City Region Combined Authority,
+          we'd like to invite you to apply to these fantastic digital skills bootcamps
+          which will focus on front-end coding and software development.
           </p>
+
+          <p>
+          These courses are completely free, delivered remotely (lockdown-friendly), and
+          taught by experienced professionals with years of experience. They're exclusively
+          available for people aged 19 and over in Liverpool, Wirral, Sefton, Knowsley,
+          St Helens, and Halton.
+          </p>
+
+          <p>
+          The main purpose of this programme is to make jobs in tech more accessible for people
+          in the BAME community, female candidates, and those who have recently been made
+          redundant or unemployed due to lockdown. But we’re also looking to help people
+          currently in entry-level tech roles progress up the ladder more quickly and easily,
+          as well as introducing people from non-technical backgrounds to the wonderful world
+          of coding.
+          </p>
+          <div className="lcrcaLogo">
+            <img src={lcrcalogo} alt="LCRCA Logo"/>
+          </div>
         </header>
         <section className="tiles">
           <article className="style1">
@@ -36,8 +55,7 @@ const IndexPage = () => (
               <h2>Cassie</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Click to reveal Cassie's story
                 </p>
               </div>
             </Link>

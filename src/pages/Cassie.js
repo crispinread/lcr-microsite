@@ -7,10 +7,22 @@ const IndexPage = () => (
   <Layout>
     <div id="main">
       <div className="inner">
-        <h1>Generic Page</h1>
-        <span className="image main">
-          <img src={cassietech} alt="" />
-        </span>
+        <h1>Cassie</h1>
+        <div className="flex-container">
+          <div className="image-container">
+            <span className="image main">
+              <img src={cassietech} alt="" />
+            </span>
+          </div>
+          <div className="socials-container">
+            <h2>Click the icons to follow Cassie's work</h2>
+            <div className="social-icons">
+              <i class="fa fa-codepen"></i>
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-github"></i>
+            </div>
+          </div>
+        </div>
         <p>
           Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis
           in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis
