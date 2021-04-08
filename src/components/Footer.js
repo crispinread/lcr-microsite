@@ -13,7 +13,7 @@ export default function Footer() {
               const { icon, name, url } = social;
               return (
                 <li key={url}>
-                  <a href={url} className={`icon ${icon}`}>
+                  <a href={url} className={`icon ${icon}`} target="_blank" rel="noreferrer">
                     <span className="label">{name}</span>
                   </a>
                 </li>
@@ -22,10 +22,7 @@ export default function Footer() {
           </ul>
         </section>
         <ul className="copyright">
-          <li>&copy; Phantom. All rights reserved</li>
-          <li>
-            Design: <a href="http://html5up.net">HTML5 UP</a>
-          </li>
+          <li>&copy; The Coders Guild. All rights reserved</li>
         </ul>
       </div>
     </footer>
