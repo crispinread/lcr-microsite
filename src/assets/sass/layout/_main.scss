@@ -12,7 +12,12 @@
   @include breakpoint('<=small') {
     @include padding(3em, 0, (-3em, 0, 3em, 0));
   }
-
+  .inner {
+    .content {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
   .lcrcaLogo {
     width: 100%;
 
@@ -43,23 +48,131 @@
         width: 100%;
         justify-content: space-around;
 
+        & a {
+          border-bottom: none;
+        }
+
         & i {
           font-size: 2rem;
         }
       }
     }
   }
+
+  .cta-bg {
+    width: 100%;
+    background-color: _palette(accent1);
+    min-height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .cta-banner {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 60%;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 0 auto;
+      background-color: #fff;
+      color: _palette(accent1);
+
+      .logo {
+        width: 15%;
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 80%;
+        }
+      }
+
+      .content {
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+
+        & p {
+          margin-bottom: 0;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #main {
+    .cta-bg {
+      .cta-banner {
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 730px) {
+  #main {
+    .cta-bg {
+      .cta-banner {
+        .logo {
+          width: 30%;
+        }
+
+        .content {
+          & p {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #main {
+    .cta-bg {
+      .cta-banner {
+        .logo {
+          display: none;
+        }
+
+        .content {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #main {
+    .cta-bg {
+      .cta-banner {
+        padding: 10px 10px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 650px) {
-  .flex-container {
-    .image-container {
-      width: 100%;
+  #main {
+    .inner {
+      .content {
+        width: 100%;
+      }
     }
-    .socials-container {
-      width: 100%;
-      margin-bottom: 50px;
-      padding: 0;
+
+    .flex-container {
+      .image-container {
+        width: 100% !important;
+      }
+      .socials-container {
+        width: 100% !important;
+        margin-bottom: 50px;
+        padding: 0;
+      }
     }
   }
 }

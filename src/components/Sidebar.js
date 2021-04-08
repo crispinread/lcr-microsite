@@ -13,7 +13,7 @@ export default function SideBar({ sections = [] }) {
             <span className="symbol">
               <img src={logo} alt="" />
             </span>
-            <span className="title">The Coders Guild Liverpool Bootcamp!</span>
+            <span className="title">Front End Coder Bootcamp!</span>
           </Link>
           <TopNav onMenuClick={() => toggleHeader(!headerOpen)} />
         </div>

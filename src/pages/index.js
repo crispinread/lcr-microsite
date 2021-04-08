@@ -51,11 +51,11 @@ const IndexPage = () => (
             <span className="image">
               <img src={cassietech} alt="" />
             </span>
-            <Link to="/Cassie">
-              <h2>Cassie</h2>
+            <Link to="/Alexandra">
+              <h2>Alexandra</h2>
               <div className="content">
                 <p>
-                  Click to reveal Cassie's story
+                  Alexandra's Story
                 </p>
               </div>
             </Link>
@@ -64,12 +64,11 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic2} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Lorem</h2>
+            <Link to="/Casper">
+              <h2>Casper</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Casper's Story
                 </p>
               </div>
             </Link>
@@ -78,12 +77,11 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic3} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Feugiat</h2>
+            <Link to="/Carl">
+              <h2>Carl</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Carl's Story
                 </p>
               </div>
             </Link>
@@ -92,68 +90,63 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic4} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Tempus</h2>
+            <Link to="/Guilio">
+              <h2>Guilio</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Guilio's Story
                 </p>
               </div>
             </Link>
           </article>
-          <article className="style5">
+          <article className="style1">
             <span className="image">
               <img src={pic5} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Aliquam</h2>
+            <Link to="/Irene">
+              <h2>Irene</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style6">
-            <span className="image">
-              <img src={pic6} alt="" />
-            </span>
-            <Link to="/Generic">
-              <h2>Veroeros</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Irene's Story
                 </p>
               </div>
             </Link>
           </article>
           <article className="style2">
             <span className="image">
-              <img src={cassietech} alt="" />
+              <img src={pic6} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Ipsum</h2>
+            <Link to="/Jemma">
+              <h2>Jemma</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Jemma's Story
                 </p>
               </div>
             </Link>
           </article>
           <article className="style3">
             <span className="image">
-              <img src={pic2} alt="" />
+              <img src={cassietech} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Dolor</h2>
+            <Link to="/Joana">
+              <h2>Joana</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Joana's Story
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style4">
+            <span className="image">
+              <img src={pic2} alt="" />
+            </span>
+            <Link to="/John">
+              <h2>John</h2>
+              <div className="content">
+                <p>
+                  John's story
                 </p>
               </div>
             </Link>
@@ -162,40 +155,37 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic3} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Nullam</h2>
+            <Link to="/Kate">
+              <h2>Kate</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Kate's Story
                 </p>
               </div>
             </Link>
           </article>
-          <article className="style5">
+          <article className="style2">
             <span className="image">
               <img src={pic4} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Ultricies</h2>
+            <Link to="/Lauren">
+              <h2>Lauren</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Lauren's Story
                 </p>
               </div>
             </Link>
           </article>
-          <article className="style6">
+          <article className="style3">
             <span className="image">
               <img src={pic5} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Dictum</h2>
+            <Link to="/Rebecca">
+              <h2>Rebecca</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Rebecca's Story
                 </p>
               </div>
             </Link>
@@ -204,12 +194,37 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic6} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Pretium</h2>
+            <Link to="/Sara">
+              <h2>Sara</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Sara's Story
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style4">
+            <span className="image">
+              <img src={pic6} alt="" />
+            </span>
+            <Link to="/Tom">
+              <h2>Tom</h2>
+              <div className="content">
+                <p>
+                  Tom's Story
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style4">
+            <span className="image">
+              <img src={pic6} alt="" />
+            </span>
+            <Link to="/Umar">
+              <h2>Umar</h2>
+              <div className="content">
+                <p>
+                  Umar's Story
                 </p>
               </div>
             </Link>
