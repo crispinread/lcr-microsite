@@ -3,9 +3,9 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import lcrcalogo from '../assets/images/lcrca-logo.jpeg';
-import cassietech from '../assets/images/cassie-tech.jpg';
-import pic2 from '../assets/images/02.jpg';
-import pic3 from '../assets/images/03.jpg';
+import Tom from '../assets/images/tom.jpeg';
+import Rebecca from '../assets/images/rebecca.jpeg';
+import Joana from '../assets/images/joana.jpeg';
 import pic4 from '../assets/images/04.jpg';
 import pic5 from '../assets/images/05.jpg';
 import pic6 from '../assets/images/06.jpg';
@@ -49,7 +49,7 @@ const IndexPage = () => (
         <section className="tiles">
           <article className="style1">
             <span className="image">
-              <img src={cassietech} alt="" />
+              <img src={Tom} alt="" />
             </span>
             <Link to="/Alexandra">
               <h2>Alexandra</h2>
@@ -62,7 +62,7 @@ const IndexPage = () => (
           </article>
           <article className="style2">
             <span className="image">
-              <img src={pic2} alt="" />
+              <img src={Rebecca} alt="" />
             </span>
             <Link to="/Casper">
               <h2>Casper</h2>
@@ -75,7 +75,7 @@ const IndexPage = () => (
           </article>
           <article className="style3">
             <span className="image">
-              <img src={pic3} alt="" />
+              <img src={Joana} alt="" />
             </span>
             <Link to="/Carl">
               <h2>Carl</h2>
@@ -127,7 +127,7 @@ const IndexPage = () => (
           </article>
           <article className="style3">
             <span className="image">
-              <img src={cassietech} alt="" />
+              <img src={Joana} alt="" />
             </span>
             <Link to="/Joana">
               <h2>Joana</h2>
@@ -140,7 +140,7 @@ const IndexPage = () => (
           </article>
           <article className="style4">
             <span className="image">
-              <img src={pic2} alt="" />
+              <img src={Rebecca} alt="" />
             </span>
             <Link to="/John">
               <h2>John</h2>
@@ -153,7 +153,7 @@ const IndexPage = () => (
           </article>
           <article className="style1">
             <span className="image">
-              <img src={pic3} alt="" />
+              <img src={Joana} alt="" />
             </span>
             <Link to="/Kate">
               <h2>Kate</h2>
@@ -179,7 +179,7 @@ const IndexPage = () => (
           </article>
           <article className="style3">
             <span className="image">
-              <img src={pic5} alt="" />
+              <img src={Rebecca} alt="" />
             </span>
             <Link to="/Rebecca">
               <h2>Rebecca</h2>
@@ -205,7 +205,7 @@ const IndexPage = () => (
           </article>
           <article className="style4">
             <span className="image">
-              <img src={pic6} alt="" />
+              <img src={Tom} alt="" />
             </span>
             <Link to="/Tom">
               <h2>Tom</h2>

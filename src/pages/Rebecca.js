@@ -1,43 +1,41 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import cassietech from '../assets/images/cassie-tech.jpg';
+import Rebecca from '../assets/images/rebecca.jpeg';
 import logo from '../assets/images/TCG-logo-brackets.svg';
 
 const IndexPage = () => (
   <Layout>
     <div id="main">
       <div className="inner">
-        <h1>Cassie</h1>
+        <h1>Rebecca</h1>
         <div className="flex-container">
           <div className="image-container">
             <span className="image main">
-              <img src={cassietech} alt="" />
+              <img src={Rebecca} alt="" />
             </span>
           </div>
           <div className="socials-container">
-            <h2>Click the icons to follow Cassie's work</h2>
+            <h2>Click the icons to follow Rebecca's work</h2>
             <div className="social-icons">
-              <a href=""><i class="fa fa-codepen"></i></a>
-              <a href=""><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-github"></i></a>
+              <a href="https://codepen.io/collection/nozkLY"><i class="fa fa-codepen"></i></a>
             </div>
           </div>
         </div>
         <div className="content">
-          <h2>In Cassie's Own Words</h2>
+          <h2>In Rebecca's Own Words</h2>
           <p>
-            Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis
-            in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis
-            sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit
-            amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat.
-            Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna
-            ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien
-            risus, commodo eget turpis at, elementum convallis elit. Pellentesque
-            enim turpis, hendrerit tristique.
+          I'm very interested in working with various programming languages like html, css and
+          javascript in the future. Before this course I picked up bits of html and css knowledge 
+          from fixing issues on the jcink forums I run. During the course, I found the sessions 
+          focused on these the most fascinating and I really enjoyed building on that knowledge.
+          As of now I am playing around with the stuff we've learned. I'm also writing blog posts 
+          about different subjects covered on the course. I've made a mock up web page separate to 
+          the tasks we were assigned. I'm also building on that knowledge with FreeCodeCamp as well 
+          as Codepip and apps like Mino, so I'm always putting things into practice.
           </p>
           <h2>
-            Click to view Cassie's Bio
+            Click to view Rebecca's Bio
           </h2>
         </div>
       </div>
