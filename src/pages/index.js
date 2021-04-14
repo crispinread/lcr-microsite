@@ -159,7 +159,7 @@ const IndexPage = () => (
               <h2>Kate</h2>
               <div className="content">
                 <p>
-                  Kate's Story
+                  Kate's
                 </p>
               </div>
             </Link>
