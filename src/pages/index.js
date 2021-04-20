@@ -7,7 +7,7 @@ import Tom from '../assets/images/tom.jpeg';
 import Rebecca from '../assets/images/rebecca.jpeg';
 import Joana from '../assets/images/joana.jpeg';
 import pic4 from '../assets/images/04.jpg';
-import pic5 from '../assets/images/05.jpg';
+import irene from '../assets/images/irene.jpeg';
 import pic6 from '../assets/images/06.jpg';
 
 import { Link } from 'gatsby';
@@ -101,7 +101,7 @@ const IndexPage = () => (
           </article>
           <article className="style1">
             <span className="image">
-              <img src={pic5} alt="" />
+              <img src={irene} alt="" />
             </span>
             <Link to="/Irene">
               <h2>Irene</h2>
