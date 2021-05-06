@@ -12,7 +12,7 @@ const IndexPage = () => (
         <div className="flex-container">
           <div className="image-container">
             <span className="image main">
-              <img src={irene} alt="" />
+              <img src={irene} alt="Irene" />
             </span>
           </div>
           <div className="socials-container">
@@ -33,9 +33,6 @@ const IndexPage = () => (
           start the Front End Development Libraries course next as I'm very interested in front end 
           development. I'd love an opportunity to learn even more within a job or apprenticeship.
           </p>
-          <h2>
-            Click to view Irene's Bio
-          </h2>
         </div>
       </div>
       <div className="cta-bg">

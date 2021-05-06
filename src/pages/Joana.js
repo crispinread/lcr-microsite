@@ -12,7 +12,7 @@ const IndexPage = () => (
         <div className="flex-container">
           <div className="image-container">
             <span className="image main">
-              <img src={Joana} alt="" />
+              <img src={Joana} alt="Joana" />
             </span>
           </div>
           <div className="socials-container">
@@ -43,9 +43,6 @@ const IndexPage = () => (
           new ways to write better code. My first html and css website was my portfolio, and I'm 
           keeping it updated with new projects.
           </p>
-          <h2>
-            Click to view Joana's Bio
-          </h2>
         </div>
       </div>
       <div className="cta-bg">

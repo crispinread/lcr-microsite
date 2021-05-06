@@ -38,9 +38,6 @@ const IndexPage = () => (
           at home and less work commitments due to Covid I jumped at the opportunity to relearn and
           improve!
           </p>
-          <h2>
-            Click to view Tom's Bio
-          </h2>
         </div>
       </div>
       <div className="cta-bg">

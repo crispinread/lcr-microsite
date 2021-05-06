@@ -6,9 +6,8 @@ import lcrcalogo from '../assets/images/lcrca-logo.jpeg';
 import Tom from '../assets/images/tom.jpeg';
 import Rebecca from '../assets/images/rebecca.jpeg';
 import Joana from '../assets/images/joana.jpeg';
-import pic4 from '../assets/images/04.jpg';
-import irene from '../assets/images/irene.jpeg';
-import pic6 from '../assets/images/06.jpg';
+import Irene from '../assets/images/irene.jpeg';
+
 
 import { Link } from 'gatsby';
 
@@ -51,133 +50,16 @@ const IndexPage = () => (
             <span className="image">
               <img src={Tom} alt="" />
             </span>
-            <Link to="/Alexandra">
-              <h2>Alexandra</h2>
+            <Link to="/Tom">
+              <h2>Tom</h2>
               <div className="content">
                 <p>
-                  Alexandra's Story
+                  Tom's Story
                 </p>
               </div>
             </Link>
           </article>
           <article className="style2">
-            <span className="image">
-              <img src={Rebecca} alt="" />
-            </span>
-            <Link to="/Casper">
-              <h2>Casper</h2>
-              <div className="content">
-                <p>
-                  Casper's Story
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style3">
-            <span className="image">
-              <img src={Joana} alt="" />
-            </span>
-            <Link to="/Carl">
-              <h2>Carl</h2>
-              <div className="content">
-                <p>
-                  Carl's Story
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style4">
-            <span className="image">
-              <img src={pic4} alt="" />
-            </span>
-            <Link to="/Guilio">
-              <h2>Guilio</h2>
-              <div className="content">
-                <p>
-                  Guilio's Story
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
-            <span className="image">
-              <img src={irene} alt="" />
-            </span>
-            <Link to="/Irene">
-              <h2>Irene</h2>
-              <div className="content">
-                <p>
-                  Irene's Story
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style2">
-            <span className="image">
-              <img src={pic6} alt="" />
-            </span>
-            <Link to="/Jemma">
-              <h2>Jemma</h2>
-              <div className="content">
-                <p>
-                  Jemma's Story
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style3">
-            <span className="image">
-              <img src={Joana} alt="" />
-            </span>
-            <Link to="/Joana">
-              <h2>Joana</h2>
-              <div className="content">
-                <p>
-                  Joana's Story
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style4">
-            <span className="image">
-              <img src={Rebecca} alt="" />
-            </span>
-            <Link to="/John">
-              <h2>John</h2>
-              <div className="content">
-                <p>
-                  John's story
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
-            <span className="image">
-              <img src={Joana} alt="" />
-            </span>
-            <Link to="/Kate">
-              <h2>Kate</h2>
-              <div className="content">
-                <p>
-                  Kate's
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style2">
-            <span className="image">
-              <img src={pic4} alt="" />
-            </span>
-            <Link to="/Lauren">
-              <h2>Lauren</h2>
-              <div className="content">
-                <p>
-                  Lauren's Story
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style3">
             <span className="image">
               <img src={Rebecca} alt="" />
             </span>
@@ -190,41 +72,28 @@ const IndexPage = () => (
               </div>
             </Link>
           </article>
-          <article className="style4">
+          <article className="style3">
             <span className="image">
-              <img src={pic6} alt="" />
+              <img src={Joana} alt="" />
             </span>
-            <Link to="/Sara">
-              <h2>Sara</h2>
+            <Link to="/Carl">
+              <h2>Joana</h2>
               <div className="content">
                 <p>
-                  Sara's Story
+                  Joana's Story
                 </p>
               </div>
             </Link>
           </article>
           <article className="style4">
             <span className="image">
-              <img src={Tom} alt="" />
+              <img src={Irene} alt="" />
             </span>
-            <Link to="/Tom">
-              <h2>Tom</h2>
+            <Link to="/Irene">
+              <h2>Irene</h2>
               <div className="content">
                 <p>
-                  Tom's Story
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style4">
-            <span className="image">
-              <img src={pic6} alt="" />
-            </span>
-            <Link to="/Umar">
-              <h2>Umar</h2>
-              <div className="content">
-                <p>
-                  Umar's Story
+                  Irene's Story
                 </p>
               </div>
             </Link>

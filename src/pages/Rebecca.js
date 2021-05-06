@@ -12,7 +12,7 @@ const IndexPage = () => (
         <div className="flex-container">
           <div className="image-container">
             <span className="image main">
-              <img src={Rebecca} alt="" />
+              <img src={Rebecca} alt="Rebecca" />
             </span>
           </div>
           <div className="socials-container">
@@ -34,9 +34,6 @@ const IndexPage = () => (
           the tasks we were assigned. I'm also building on that knowledge with FreeCodeCamp as well 
           as Codepip and apps like Mino, so I'm always putting things into practice.
           </p>
-          <h2>
-            Click to view Rebecca's Bio
-          </h2>
         </div>
       </div>
       <div className="cta-bg">
