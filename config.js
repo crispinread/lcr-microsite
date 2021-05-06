@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'lcr-microsite/src/assets/images/The_Coders_Guild_Logo_Blue.svg',
+  manifestIcon: 'src/assets/images/The_Coders_Guild_Logo_Blue.svg',
   pathPrefix: `/gatsby-starter-phantom/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Anubhav Srivastava',
   subHeading: 'Full time Web Developer. Part time Open source contributor  ',
