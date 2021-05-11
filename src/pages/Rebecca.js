@@ -34,6 +34,11 @@ const IndexPage = () => (
           the tasks we were assigned. I'm also building on that knowledge with FreeCodeCamp as well 
           as Codepip and apps like Mino, so I'm always putting things into practice.
           </p>
+
+          <div className='videoContainer'>
+            <h3>Learn about Rebecca's Coding Journey!</h3>
+            <iframe src="https://player.vimeo.com/video/547883382?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen className="videostyle" title="Profile Video"></iframe>
+          </div>
         </div>
       </div>
       <div className="cta-bg">
@@ -43,6 +48,7 @@ const IndexPage = () => (
           </div>
       </div>
     </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
   </Layout>
 );
 

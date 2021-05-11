@@ -10,28 +10,25 @@ const ApprenticeshipsPage = () => (
       <div className="inner">
         <header>
           <h1>
-            Apprenticeships            <br />
+            Apprenticeships
           </h1>
           <p>
-          Working in partnership with the Liverpool City Region Combined Authority,
-          we'd like to invite you to apply to these fantastic digital skills bootcamps
-          which will focus on front-end coding and software development.
+          The Coders Guild have over 8 years experience delivering modern technical apprenticeships - way before apprenticeships were cool. We firmly believe they are the key to the future of the digital industry in this country.
           </p>
 
           <p>
-          These courses are completely free, delivered remotely (lockdown-friendly), and
-          taught by experienced professionals with years of experience. They're exclusively
-          available for people aged 19 and over in Liverpool, Wirral, Sefton, Knowsley,
-          St Helens, and Halton.
+          Back in 2012 a group of developers got together to create a new kind of apprenticeship. We wanted to solve the key issues facing our communities and businesses. We set out to create a programme that would:
+            <ul>
+              <li>Increase inclusion and diversity across the industry.</li>
+              <li>Raise the bar on code quality and promote knowledge share.</li>
+              <li>Secure the local talent pipelines.</li>
+            </ul>
           </p>
 
           <p>
-          The main purpose of this programme is to make jobs in tech more accessible for people
-          in the BAME community, female candidates, and those who have recently been made
-          redundant or unemployed due to lockdown. But we’re also looking to help people
-          currently in entry-level tech roles progress up the ladder more quickly and easily,
-          as well as introducing people from non-technical backgrounds to the wonderful world
-          of coding.
+          We’ve been running since 2013, well before apprenticeships were ‘cool’. We were part of the pilot and trailblazer schemes that determined the format and contents of the new Apprenticeship Standards in Software Development.
+
+          …and when we say industry-led - we actually mean it! All technical training is devised, delivered and under constant review by expert developers. Our Open Source curriculum is available on GitHub.     
           </p>
           <div className="lcrcaLogo">
             <img src={lcrcalogo} alt="LCRCA Logo"/>

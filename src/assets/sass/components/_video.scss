@@ -1,0 +1,24 @@
+.videoContainer {
+  padding: 56.25% 0 0 0;
+  position: relative;
+  margin-bottom: 30px;
+
+  h3 {
+    position: absolute;
+    top: 0;
+  }
+}
+
+.videostyle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+}
+
+@media screen and (max-width: 375px) {
+  .videostyle {
+    height: 70%;
+  }
+}
