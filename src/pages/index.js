@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import lcrcalogo from '../assets/images/lcrca-logo.jpeg';
+import dfelogo from '../assets/images/Department_for_Education.png';
 import Tom from '../assets/images/tom.jpeg';
 import Rebecca from '../assets/images/rebecca.jpeg';
 import Joana from '../assets/images/joana.jpeg';
@@ -17,33 +18,32 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h1>
-          Liverpool City Region Receives Valuable Tech Skills in 2021
+          Looking to expand your dev team? Thinking about taking on an apprentice developer?
             <br />
           </h1>
           <p>
-          Working in partnership with the Liverpool City Region Combined Authority,
-          we'd like to invite you to apply to these fantastic digital skills bootcamps
-          which will focus on front-end coding and software development.
+          All these people have already been trained by us on an 8 week intensive digital skills bootcamp funded by the Dept for Education through Liverpool City Region
           </p>
 
-          <p>
-          These courses are completely free, delivered remotely (lockdown-friendly), and
-          taught by experienced professionals with years of experience. They're exclusively
-          available for people aged 19 and over in Liverpool, Wirral, Sefton, Knowsley,
-          St Helens, and Halton.
-          </p>
-
-          <p>
-          The main purpose of this programme is to make jobs in tech more accessible for people
-          in the BAME community, female candidates, and those who have recently been made
-          redundant or unemployed due to lockdown. But we’re also looking to help people
-          currently in entry-level tech roles progress up the ladder more quickly and easily,
-          as well as introducing people from non-technical backgrounds to the wonderful world
-          of coding.
-          </p>
           <div className="lcrcaLogo">
             <img src={lcrcalogo} alt="LCRCA Logo"/>
           </div>
+          
+          <div className="dfeLogo">
+            <img src={dfelogo} alt="Department for Education Logo" />
+          </div>
+
+          <h2>Expert training by Professional Developers</h2>
+          <p>
+          All the training on the bootcamp was devised and delivered by industry professionals, many of them experts in their field. They have learned key skills that employers have told us they need to hit the ground running and deliver an amazing ROI within weeks.
+          They have been trained in Semantic HTML & CSS, Bootstrap, Web Accessibility, Wordpress and content management, introduction to JS and Source control with Git. Our apprenticeship.
+          </p>
+
+          <h2>Hire one of our grads today</h2>
+          <p>
+          For more information about our industry led apprenticeship scheme or to interview or hire one of these people, please get in touch using the form below.
+          </p>
+
         </header>
         <section className="tiles">
           <article className="style1">
