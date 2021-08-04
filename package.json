@@ -34,6 +34,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@iconify-icons/simple-icons": "^1.1.36",
+    "@iconify/react": "^1.1.4",
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.0",
     "rimraf": "^3.0.2"

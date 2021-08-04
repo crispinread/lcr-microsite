@@ -8,6 +8,8 @@ import Tom from '../assets/images/tom.jpeg';
 import Rebecca from '../assets/images/rebecca.jpeg';
 import Joana from '../assets/images/joana.jpeg';
 import Irene from '../assets/images/irene.jpeg';
+import Riccardo from '../assets/images/riccardo.jpg';
+import Cal from '../assets/images/cal.jpeg';
 
 
 import { Link } from 'gatsby';
@@ -94,6 +96,32 @@ const IndexPage = () => (
               <div className="content">
                 <p>
                   Irene's Story
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style1">
+            <span className="image">
+              <img src={Cal} alt="Cal" />
+            </span>
+            <Link to="/Cal">
+              <h2>Cal</h2>
+              <div className="content">
+                <p>
+                  Cal's Story
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style2">
+            <span className="image">
+              <img src={Riccardo} alt="Riccardo" />
+            </span>
+            <Link to="/Riccardo">
+              <h2>Riccardo</h2>
+              <div className="content">
+                <p>
+                  Riccardo's Story
                 </p>
               </div>
             </Link>
