@@ -20,11 +20,17 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h1>
-          Looking to expand your dev team? Thinking about taking on an apprentice developer?
+          Hire A Web Developer Grad Today!
             <br />
           </h1>
           <p>
-          All these people have already been trained by us on an 8 week intensive digital skills bootcamp funded by the Dept for Education through Liverpool City Region
+          Looking to recruit a web developer to help improve your company’s website? Hire the most ambitious and driven developers looking for their next career opportunity.           
+          </p>
+          <p>
+          All these people have already been trained by us on an 8 week intensive digital skills bootcamp funded by the Dept for Education through Liverpool City Region.
+          </p>
+          <p>
+          To interview or hire one of these people, please get in touch using the form below.
           </p>
 
           <div className="lcrcaLogo">
@@ -37,13 +43,7 @@ const IndexPage = () => (
 
           <h2>Expert training by Professional Developers</h2>
           <p>
-          All the training on the bootcamp was devised and delivered by industry professionals, many of them experts in their field. They have learned key skills that employers have told us they need to hit the ground running and deliver an amazing ROI within weeks.
-          They have been trained in Semantic HTML & CSS, Bootstrap, Web Accessibility, Wordpress and content management, introduction to JS and Source control with Git. Our apprenticeship.
-          </p>
-
-          <h2>Hire one of our grads today</h2>
-          <p>
-          For more information about our industry led apprenticeship scheme or to interview or hire one of these people, please get in touch using the form below.
+          All the training on the bootcamp was devised and delivered by industry professionals, many of them experts in their field. They have learned key skills that employers have told us they need to hit the ground running and deliver an amazing ROI within weeks. They have been trained in semantic HTML & CSS, Bootstrap, web accessibility, Wordpress and content management, as well as an introduction to JavaScript and source control with Git.
           </p>
 
         </header>
